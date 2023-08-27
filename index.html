@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Sale</title>
-    <!-- css link -->
-    <link rel="stylesheet" href="./styles/style.css">
-    <!-- DaisyUI link -->
+    
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- google fonts work sans -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,500&display=swap" rel="stylesheet">
-    <!-- FontAwesome CDN link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
 
+   
 
 </head>
 <body>
 <header>
-    <!-- Hero part -->
+
     <div class="hero min-h-screen bg-[#F9F6E2]">
         <div class="hero-content flex-col lg:flex-row-reverse gap-[10px] md:gap-[30px] ">
           <img src="./images/Summer 1.png" class=" w-[50%] " />
@@ -36,21 +33,21 @@
       </div>
 </header>
 <main>
-    <!-- card section -->
+
+
     <section class="card-section pt-[40px] lg:pt-[100px] flex flex-col lg:flex-row px-[30px] lg:px-[100px]">
     <div class="flex flex-col gap-[60px] lg:w-[75%]">
-            <!-- cards -->  
-            <!-- Kitchenware -->
+
             <div class="cards-container flex flex-col gap-[30px] " >
                 <h3 class="cards-title text-center lg:text-left">Kitchenware</h3>
                 <div class="Kitchenware-cards flex flex-row flex-wrap gap-[20px] justify-center lg:justify-start items-center lg:items-start">
-                    <!-- card 01 -->
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-one-name','prod-one-price')" >
                         <figure class="px-10 h-[150px] bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod1.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod1.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body  items-center text-center ">
-                        <!-- Rating -->
+
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -64,13 +61,11 @@
                         </div>
                       </div>
                      
-                    <!-- card 02 -->
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-two-name','prod-two-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod2.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod2.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
                         <div class="rating ">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -83,13 +78,13 @@
                          
                         </div>
                       </div>
-                    <!-- card 03 -->
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg " onclick="productAddToCart('prod-three-name','prod-three-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod3.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod3.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                           <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -106,17 +101,17 @@
                
                
             </div>
-            <!-- Sportswear -->
+
             <div class="cards-container flex flex-col gap-[30px]">
                 <h3 class="cards-title text-center lg:text-left">Sportswear</h3>
                 <div class="Kitchenware-cards flex flex-row flex-wrap gap-[20px] justify-center lg:justify-start items-center lg:items-start">
-                    <!-- card 01 -->
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-four-name','prod-four-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod4.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod4.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -129,13 +124,14 @@
                          
                         </div>
                       </div>
-                    <!-- card 02 -->
-                    <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-five-name','prod-five-price')">
+
+
+                      <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-five-name','prod-five-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod5.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod5.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                         <div class="rating ">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -148,13 +144,13 @@
                          
                         </div>
                       </div>
-                    <!-- card 03 -->
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg " onclick="productAddToCart('prod-six-name','prod-six-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod6.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod6.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                           <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -171,17 +167,17 @@
                
                
             </div>
-            <!-- Furniture -->
+
             <div class="cards-container flex flex-col gap-[30px]">
                 <h3 class="cards-title text-center lg:text-left">Furniture</h3>
                 <div class="Kitchenware-cards flex flex-row flex-wrap gap-[20px] justify-center lg:justify-start items-center lg:items-start">
-                    <!-- card 01 -->
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-seven-name','prod-seven-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod7.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod7.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -194,13 +190,13 @@
                          
                         </div>
                       </div>
-                    <!-- card 02 -->
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg" onclick="productAddToCart('prod-eight-name','prod-eight-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod8.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod8.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                         <div class="rating ">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -213,13 +209,14 @@
                          
                         </div>
                       </div>
-                    <!-- card 03 -->
+
+
                     <div class="card w-[350px] md:w-[280px] lg:w-[250px] bg-base-100 shadow-lg " onclick="productAddToCart('prod-nine-name','prod-nine-price')">
                         <figure class="px-10 h-[150px] pt-10 bg-[#e6e3e3] m-[20px] mb-[-20px]">
-                          <img src="./images/prod9.png" alt="Shoes" class="rounded-sm" />
+                          <img src="./images/prod9.png" alt="" class="rounded-sm" />
                         </figure>
                         <div class="card-body items-center text-center">
-                        <!-- Rating -->
+
                           <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -236,7 +233,8 @@
                
             </div>        
             </div>
-            <!-- Shopping cart -->
+
+
             <div class=" shopping-cart flex flex-col gap-[24px] mt-[50px] lg: mt-[90px]">
                 <div class="shopping-cart-coupon bg-base-100 rounded-lg shadow-lg p-[24px]">
                     <h3>Have coupon?</h3>
@@ -245,8 +243,8 @@
                         <button id="apply-btn" class="btn btn-primary text-white text-[18px] bg-[#E527B2] border-none px-[25px] py-[14px] " disabled onclick="generateDiscount()">Apply</button>
                     </div>
                 </div>
-                <!-- purchase cost calculation -->
-                <div class="bg-base-100 relative rounded-lg shadow-lg p-[24px] mb-[50px] lg:mb-[100px]">
+
+                <div class="bg-base-100 relative rounded-lg shadow-lg p-[24px] mb-[60px] lg:mb-[100px]">
                     <div id="cart-items" class="cart-items mb-[24px]">
 
 
@@ -265,7 +263,8 @@
                     </div>
                     <hr class="mb-[24px]">
                     <button id="make-purchase-btn" class="btn btn-primary  absolute text-white text-[18px] bg-[#E527B2] border-none md:px-[68px] md:py-[14px]" onclick="my_modal_1.showModal()" disabled>Make Purchase</button>
-                     <!-- modal 1 -->
+
+
                      <dialog id="my_modal_1" class="modal ">
                         <form method="dialog" class=" bg-white rounded-2xl">
                         <div class="modal-card w-[350px] h-[350px] lg:w-[500px] lg:h-[500px]  shadow-lg">
@@ -282,39 +281,6 @@
             </div>
     </section>
 </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
